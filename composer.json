@@ -1,0 +1,31 @@
+{
+    "name": "restotelry/jwt-api-extension",
+    "description": "Web API extension with jwt for Behat",
+    "require": {
+        "php": ">=5.4",
+        "behat/behat": "~3.0",
+        "guzzlehttp/guzzle": "4 - 5",
+        "phpunit/phpunit": "~4.0"
+    },
+    "require-dev": {
+        "symfony/process": "~2.1",
+        "silex/silex": "~1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "restotelry",
+            "email": "restotelry@restotelry.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Behat\\JwtApiExtension\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
